@@ -4,165 +4,275 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/bold-duotone.min.css" />
-    <link rel="stylesheet" href="./dist/bold.css" />
+    <link rel="stylesheet" href="./dist/bold.min.css" />
     <link rel="stylesheet" href="./dist/line-duotone.min.css" />
     <link rel="stylesheet" href="./dist/linear.min.css" />
+    <link rel="stylesheet" href="./dist/outline.min.css" />
+    <link rel="stylesheet" href="./dist/broken.min.css" />
     <style>
-        i {
-            color: #008cc8;
-        }
+      i {
+        color: #008cc8;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        row-gap: 10px;
+        flex-direction: column;
+      }
+      .title {
+        font-family: Helvetica;
+        font-weight: 200;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 14pt;
+      }
+      .icon-group {
+        display: flex;
+        gap: 10px;
+      }
+      .icon-wrapper {
+        display: flex;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        align-items: center;
+      }
+      .icon {
+        height: 40px;
+        width: 40px;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
-    <div
-      style="
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        row-gap: 10px;
-        flex-direction: column;
-      ">
-      <h3 style="font-family: Helvetica;">Solar Bold Duotone</h3>
-      <div style="display: flex; gap: 10px">
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i
-            class="si-bold-duotone-gallery-minimalistic"
-            style="height: 50px; width: 50px;"
-          ></i>
+    <h2 class="title" style="margin-bottom: 25px; font-size: 25pt">
+      <a style="color: #008cc8;" href="https://github.com/480-Design/Solar-Icon-Set"> Solar Icons</a>
+      <a style="color: #636363;" href="https://github.com/tamaasrory/solar-icons-css">
+        <strong>(css)</strong> <small style="color: #777777">by Tama Asrory</small></a
+      >
+    </h2>
+    <div class="container">
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Bold Duotone</h2>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-album" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-gallery-minimalistic icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-pulse-2" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-album icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-user-hand-up" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-pulse-2 icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-pause" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-shield-user icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-map-arrow-square" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-pause icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-camera" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-map-arrow-square icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-arrow-to-top-right" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-camera icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-backspace" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-arrow-to-top-right icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-duotone-streets-map-point" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-backspace icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-bold-duotone-streets-map-point icon"></i>
         </div>
       </div>
-      <h3 style="font-family: Helvetica;">Solar Bold</h3>
-      <div style="display: flex; gap: 10px">
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i
-            class="si-bold-gallery-minimalistic"
-            style="height: 50px; width: 50px;"
-          ></i>
+
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Bold</h2>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-album" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-gallery-minimalistic icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-pulse-2" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-album icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-user-hand-up" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-pulse-2 icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-pause" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-shield-user icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-map-arrow-square" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-pause icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-camera" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-map-arrow-square icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-arrow-to-top-right" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-camera icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-backspace" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-arrow-to-top-right icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-bold-streets-map-point" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-backspace icon"></i>
         </div>
-      </div>
-      <div style="display: flex; gap: 10px">
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i
-            class="si-line-duotone-gallery-minimalistic"
-            style="height: 50px; width: 50px;"
-          ></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-album" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-pulse-2" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-user-hand-up" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-pause" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-map-arrow-square" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-camera" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-arrow-to-top-right" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-backspace" style="height: 50px; width: 50px"></i>
-        </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-line-duotone-streets-map-point" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-bold-streets-map-point icon"></i>
         </div>
       </div>
-      <div style="display: flex; gap: 10px">
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i
-            class="si-linear-gallery-minimalistic"
-            style="height: 50px; width: 50px;"
-          ></i>
+
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Line Duotone</h2>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-album" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-gallery-minimalistic icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-pulse-2" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-album icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-user-hand-up" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-pulse-2 icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-pause" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-shield-user icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-map-arrow-square" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-pause icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-camera" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-map-arrow-square icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-arrow-to-top-right" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-camera icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-backspace" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-arrow-to-top-right icon"></i>
         </div>
-        <div style="padding: 15px; border: 1px solid #ccc; border-radius: 20px">
-          <i class="si-linear-streets-map-point" style="height: 50px; width: 50px"></i>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-backspace icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-line-duotone-streets-map-point icon"></i>
+        </div>
+      </div>
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Linear</h2>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-gallery-minimalistic icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-album icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-pulse-2 icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-shield-user icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-pause icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-map-arrow-square icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-camera icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-arrow-to-top-right icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-backspace icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-linear-streets-map-point icon"></i>
+        </div>
+      </div>
+
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Outline</h2>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-gallery-minimalistic icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-album icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-pulse-2 icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-shield-user icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-pause icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-map-arrow-square icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-camera icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-arrow-to-top-right icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-backspace icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-outline-streets-map-point icon"></i>
+        </div>
+      </div>
+      <div class="icon-group">
+        <div class="icon-wrapper">
+          <h2 class="title">Solar Broken</h2>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-gallery-minimalistic icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-album icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-pulse-2 icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-shield-user icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-pause icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-map-arrow-square icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-camera icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-arrow-to-top-right icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-backspace icon"></i>
+        </div>
+        <div class="icon-wrapper">
+          <i class="si-broken-streets-map-point icon"></i>
         </div>
       </div>
     </div>
